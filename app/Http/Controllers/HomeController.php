@@ -44,4 +44,10 @@ class HomeController extends Controller
     {
         return view('dashboard.student_dashboard');
     }
+
+     /** student dashboard */
+    public function atendenceIndex()
+    {
+         return view('dashboard.atendence');
+    }
 }

@@ -57,7 +57,7 @@
                         <div class="noti-content">
                             <div>
                                 <a class="dropdown-item" href="javascript:;"><i class="flag flag-lr me-2"></i>English</a>
-                                <a class="dropdown-item" href="javascript:;"><i class="flag flag-kh me-2"></i>Khmer</a>
+                                <a class="dropdown-item" href="javascript:;"><i class="flag flag-kh me-2"></i>Luganda</a>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                                                 <img class="avatar-img rounded-circle" alt="User Image" src="{{ URL::to('assets/img/logo-small.png') }}">
                                             </span>
                                             <div class="media-body flex-grow-1">
-                                                <p class="noti-details"><span class="noti-title">John Hendry</span> sent a cancellation request <span class="noti-title">Apple iPhone XR</span></p>
+                                                <p class="noti-details"><span class="noti-title">Benk</span> sent a cancellation request <span class="noti-title">Apple iPhone XR</span></p>
                                                 <p class="noti-time"><span class="notification-time">8 mins ago</span>
                                                 </p>
                                             </div>
@@ -181,7 +181,7 @@
 		{{-- content page --}}
         @yield('content')
         <footer>
-            <p>Copyright ©  <?php echo date('Y'); ?> Soeng Souy.</p>
+            <p>Copyright ©  <?php echo date('Y'); ?> Benk Digital Solutions.</p>
         </footer>
     
     </div>
